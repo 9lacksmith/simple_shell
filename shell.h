@@ -1,9 +1,6 @@
-ifndef SHELL_H
-define SHELL_H
+#ifndef SHELL_H
+#define SHELL_H
 
-/**
- *
- */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,3 +8,6 @@ define SHELL_H
 #include <uninstd.h>
 #include <stdbool.h>
 
+void printer(const char *text);
+
+#endif
